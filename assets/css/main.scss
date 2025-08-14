@@ -23,3 +23,9 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+.profile img {
+  width: 150px !important; /* 幅を200pxに固定 */
+  height: auto; /* 高さは自動調整 */
+  border-radius: 8px; /* 角を少し丸くする（任意） */
+}

@@ -47,6 +47,16 @@
       description: Quantum–AI hybrid cyber-physical systems, circuit segmentation technology development (NEDO).
       year: Apr. 2024 – May 2025
 
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Teaching Assistant
+      institution: Tokyo University of Science, Tokyo, Japan
+      year: Apr. 2023 – Mar. 2025
+      description:
+        - Assisted in undergraduate courses including Quantum Mechanics IB, Electromagnetism I, General Physics, and Mathematics for Physics
+        - Supported instruction and exercises across multiple departments (Physics and Economics); led problem-solving sessions, prepared worksheets/solutions, helped with grading and office-hour Q&A
+
 - title: Research Interests
   type: list
   contents:

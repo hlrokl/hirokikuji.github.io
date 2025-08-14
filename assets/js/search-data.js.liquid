@@ -1,0 +1,25 @@
+---
+layout: null
+---
+
+'use strict';
+
+(function () {
+  const index = lunr(function () {
+    this.ref('id');
+    this.field('title', { boost: 10 });
+    this.field('category');
+    this.field('content', { boost: 5 });
+    this.field('url');
+
+    for (const [key, value] of Object.entries(window.store)) {
+      this.add(value);
+    }
+  });
+
+  window.search = (query) => {
+    return index.search(query).map((result) => {
+      return window.store[result.ref];
+    });
+  };
+})();
